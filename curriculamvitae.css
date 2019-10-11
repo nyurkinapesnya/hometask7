@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Times New Roman";
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+p.position {
+    font-family: Verdana;
+    font-size: 20;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 70px;
+}
+
+main:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.general {
+    width: 50%;
+    float: left;
+    padding-right: 0;
+    margin-right: 50px;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    padding-left: 95px;
+    border-left: 1px solid grey;
+    text-align: left;
+}
+
+h3 {
+    font-family: Verdana;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.profile {
+    margin-bottom: 60px;
+}
+
+aside section {
+    margin-bottom: 80px;
+}
+
+i {
+    font-size: 18px;
+    padding: 10px;
+}
